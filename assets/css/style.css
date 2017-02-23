@@ -1,31 +1,52 @@
-    .floatitright {
-        float: right;
-    }
-    
-    .floatitleft {
-        float: left;
-    }
-    
-    body {
-        margin-top: 60px;
-    }
-    
-    .connectthumb {
-        width: 18%;
-        max-width: 50px;
-        height: auto;
-    }
-    
-    #authpic {
-        max-width: 120px;
-        height: auto;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-    
-    footer {
-        height: 5%;
-        color: #9D9D95;
-        text-align: center;
-        padding: 10px;
-    }
+.floatitright {
+    float: right;
+}
+
+.floatitleft {
+    float: left;
+}
+
+body {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.connectthumb {
+    width: 18%;
+    max-width: 50px;
+    height: auto;
+}
+
+#authpic {
+    max-width: 120px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    height: 5%;
+    color: #9D9D95;
+    text-align: center;
+    padding: 10px;
+}
+
+.projectdiv {
+    position: relative;
+    margin: 10px;
+}
+
+.projecttitle {
+    position: absolute;
+    bottom: 20px;
+    margin-bottom: 0;
+    padding: 15px;
+    width: 95%;
+    color: #fff;
+    text-align: center;
+    line-height: 30%;
+    font-weight: 300;
+    border-bottom: 0;
+    height: 20%;
+    z-index: 2;
+}
